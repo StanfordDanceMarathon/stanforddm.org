@@ -1,0 +1,116 @@
+/*
+ * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('/assets/img/splash_opacity.jpg') no-repeat center center scroll;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('/assets/img/bg1.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+}
+
+section {
+    padding-top: 75px;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+.navbar-inverse {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(149, 209, 200);
+    border: none;
+    height: 90px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    border-bottom: 5px solid #fff;
+}
+
+.navbar-nav>li>a {
+    padding: 0;
+    padding-bottom: 5px;
+    margin: 15px;
+}
+
+.navbar-social {
+    font-size: 1.5em;
+}
+
+.navbar-logo {
+    text-align: center;
+    height: 0;
+}
+
+.navbar-logo img {
+    height: 50px;
+    /*display: none;  main.js shows the logo */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+.join-circle {
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+
