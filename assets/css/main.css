@@ -1,9 +1,3 @@
-/*
- * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -18,13 +12,15 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('/assets/img/splash_opacity.jpg') no-repeat center center scroll;
+	background: url('/assets/img/splash.jpg') no-repeat center center scroll;
     background-size: cover;
     padding: 100px 0;
+    padding-top: 150px;
 }
 
 .image-bg-fixed-height {
-	background: url('/assets/img/bg1.jpg') no-repeat center center scroll;
+	background: url('/assets/img/splash.jpg') no-repeat center center scroll;
+    background-size: cover;
     height: 450px;
 }
 
@@ -91,6 +87,13 @@ section {
     display: none; /* main.js shows the logo */
 }
 
+.navbar-logo h2 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 800;
+    display: none;
+}
+
 footer {
     margin: 50px 0;
 }
@@ -110,7 +113,3 @@ footer {
     width: 100%;
     padding: 20px;
 }
-
-
-
-
