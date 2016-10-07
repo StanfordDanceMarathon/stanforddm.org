@@ -2,8 +2,7 @@ body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.image-bg-fluid-height,
-.image-bg-fixed-height {
+.image-bg {
     text-align: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -11,17 +10,25 @@ body {
     -o-background-size: cover;
 }
 
-.image-bg-fluid-height {
+.image-bg {
 	background: url('/assets/img/splash.jpg') no-repeat center center scroll;
     background-size: cover;
     padding: 100px 0;
-    padding-top: 150px;
 }
 
-.image-bg-fixed-height {
-	background: url('/assets/img/splash.jpg') no-repeat center center scroll;
-    background-size: cover;
-    height: 450px;
+.image-bg h1,
+.image-bg h2,
+.image-bg p,
+.image-bg a,
+.image-bg a:focus {
+    color: #fff;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.image-bg a:hover,
+.image-bg a:active {
+    color: #fff;
+    text-decoration: underline;
 }
 
 .img-center {
@@ -113,3 +120,37 @@ footer {
     width: 100%;
     padding: 20px;
 }
+
+#register {
+    text-align: center;
+}
+
+#register .step {
+    padding: 0 35px;
+    color: #fff;
+}
+
+#register .step > div {
+    border-radius: 10px;
+    background-color: rgb(149, 209, 200);
+    padding: 10px;
+}
+
+#register .step h2 {
+    font-size: 3em;
+}
+
+#register .step a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#donate a {
+    font-size: 5em;
+    background-color: rgb(149, 209, 200);
+}
+
+#bass img {
+    width: 100%;
+}
+

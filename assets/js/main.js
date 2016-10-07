@@ -32,6 +32,7 @@ $(document).ready(function () {
     });
     */
 
+    /* Scrolly links */
     $(function() {
         $('a[href*=\\#]:not([href=\\#])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -39,12 +40,33 @@ $(document).ready(function () {
                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
                if (target.length) {
                     $('html,body').animate({
-                        scrollTop: target.offset().top - 50
+                        scrollTop: target.offset().top - 80
                     }, 400);
                     return false;
                 }
             }
         });
+    });
+
+    /* I hate CSS */
+    function snapAboutBoxes() {
+        var one = $("#about1");
+        var two = $("#about2");
+
+        one.height('auto');
+        two.height('auto');
+
+        var height = Math.max(one.height(), two.height());
+        one.height(height);
+        two.height(height);
+    }
+
+    /* Fix on page load */
+    snapAboutBoxes();
+
+    /* Fix when the window is resized */
+    $(window).on('resize', function() {
+        snapAboutBoxes();
     });
 
 });
