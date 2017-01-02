@@ -1,1 +1,2 @@
-# Stanford Dance Marathon Website
+# stanforddm.org
+Website for Stanford Dance Marathon
