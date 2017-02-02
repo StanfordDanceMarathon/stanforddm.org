@@ -121,6 +121,12 @@ footer {
     padding: 20px;
 }
 
+#top h2 {
+    margin-top: 30px;
+    color: white;
+
+}
+
 #register {
     text-align: center;
 }

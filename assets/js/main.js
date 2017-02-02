@@ -48,6 +48,29 @@ $(document).ready(function () {
         });
     });
 
+    $("#countdown").countdown('2017/02/18', function(event) {
+        if (event.elapsed) {
+            $(this).remove();
+        } else {
+            text = "Only "
+            if (event.offset.totalDays > 7) {
+                text += "%-w weeks, ";
+            }
+            if (event.offset.totalDays > 0) {
+                text += "%-d days, ";
+            }
+            if (event.offset.totalHours > 0) {
+                text += "%-H hours, %-M minutes,<br>and ";
+            } else {
+                text += "%-M minutes and "
+            }
+
+            text += "%-S second%!S until Dance Marathon 2017!";
+
+            $(this).html(event.strftime(text));
+        }
+    });
+
     /* I hate CSS */
     function snapAboutBoxes() {
         var one = $("#about1");
