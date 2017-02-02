@@ -145,6 +145,11 @@ footer {
     text-decoration: underline;
 }
 
+#register .step img {
+    max-height: 300px;
+    margin: 0 auto;
+}
+
 #donate a {
     font-size: 5em;
     background-color: rgb(149, 209, 200);
