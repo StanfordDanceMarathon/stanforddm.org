@@ -54,15 +54,15 @@ $(document).ready(function () {
         } else {
             text = "Only "
             if (event.offset.totalDays > 7) {
-                text += "%-w weeks, ";
+                text += "%-w week%!w, ";
             }
             if (event.offset.totalDays > 0) {
-                text += "%-d days, ";
+                text += "%-d day%!d, ";
             }
             if (event.offset.totalHours > 0) {
-                text += "%-H hours, %-M minutes,<br>and ";
+                text += "%-H hour%!H, %-M minute%!M,<br>and ";
             } else {
-                text += "%-M minutes and "
+                text += "%-M minute%!M and "
             }
 
             text += "%-S second%!S until Dance Marathon 2017!";
