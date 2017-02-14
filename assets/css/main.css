@@ -156,7 +156,12 @@ footer {
     margin: 0 auto;
 }
 
-#donate a {
+a.btn.btn-lg {
+    font-size: 3em;
+    background-color: rgb(149, 209, 200);
+}
+
+a.btn.btn-xlg {
     font-size: 5em;
     background-color: rgb(149, 209, 200);
 }
